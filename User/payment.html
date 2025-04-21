@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<!--
+by ZimSA team
+-->
+<html>
+	<head>
+		<title>MyHome</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<script src="../myscripts.js"></script>
+	</head>
+	<body onload = display_ct();>
+		
+								
+	
+							
+		<!-- Header -->
+			<header id="header">
+			<div>
+			<a id ="img1" href="../index.html"> <img src="../images/cover.png" id="img1"class="w3-circle" height ="250"width="250"  >  </a>
+			
+			
+			</div>
+				<div class="inner">
+					<nav id="nav">
+			   <a href="view.html"class="btn">MyHome</a>
+				<a href="msgs.html"class="btn">Contact Support</a>
+				
+				<a href="myevents.html"class="btn">View Events</a>
+                <a href="manage.html"class="btn">Update Details</a>
+              <a href="#" onclick="Pay()">Make a Payment</a>
+			<a href="#" onclick="myFunction()">Log out</a>
+			
+        
+    </div>
+	
+	
+</header>
+
+			<section id="banner">
+				<div class="inner">
+					<header>
+					<br><br><br><br>
+						<h1>      GRAHAMSTOWN RESIDENTS' ASSOCIATION</h1>
+						<p><font face="verdana" size="6" >Going Forward Together</font></p>
+						
+						
+					</header>
+							
+					 
+						
+			</section>
+
+			
+			
+			<span id='ct' ></span>		<br><br>
+        <section>
+             <br><br> <img src="../images/pay1.png" width="40%" height="15%" alt="pay"><br> <br><br>
+						
+			<h1 id = "welcome" > WELCOME </h1>
+		   
+		 
+		  <h1> Pay for membership or make a donation </h1>
+		  
+		  
+		  <p>  </p> 
+		   
+		 
+		   
+		    
+        </section>
+		
+	
+        <footer>
+            
+            <p id="time">  </p>
+			
+			<script>
+			
+			function myFunction() {
+    if (confirm("Are you sure you want to logout") == true) {
+       window.location = '../index.html';
+    } 
+ 
+      }
+function Pay() {
+    var txt;
+    if (confirm("You will be redirected to the payment page") == true) {
+       window.location = 'payment.html';
+    } 
+   
+      }
+
+			
+
+</script>
+        
+	
+<footer id="footer">				
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				
+
+			<p class="footer-links">
+					<a href="../index.html">Home</a>
+					·
+					<a href="../events.html">Events</a>
+					·
+					<a href="../member.html">MemberMe</a>
+					·
+					<a href="../about.html">About</a>
+					·
+					<a href="#">FAQ</a>
+					·
+					
+					
+				</p>
+
+				<p class="footer-company-name">Grahamstown Residents’ Association &copy; 2017</p>
+				
+				
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span> 3934 Hamilton East Street</span> Grahamstown, South Africa</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+27 46 000 1111</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:info@grahamstownresidentsassociation.co.za">info@grahamstownresidentsassociation.co.za</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<br><br><font color="white">About GRA</font> <br><br>
+					GRA is a community organization that focuses on civil society.GRA aims to represent the interests of all residents of Grahamstown. We have a committee elected at an AGM usually held in March.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="https://www.facebook.com/GrahamstownResidentsAssociation/"class="btn"><img src="images/fb.png" width="50" height="50"></a>
+						
+				
+
+				</div>
+
+			</div>
+
+		</footer>
+				
+				
+				
+				
+				
+				
+
+		<!-- Scripts -->
+		
+<script type="text/javascript"> 
+function display_c(){
+var refresh=1000; // 
+mytime=setTimeout('display_ct()',refresh)
+}
+
+function display_ct() {
+var strcount
+var x = new Date()
+document.getElementById('ct').innerHTML = x;
+tt=display_c();
+}
+
+</script>
+</head>
+
+				
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
+ 
